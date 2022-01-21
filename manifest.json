@@ -1,0 +1,32 @@
+{
+    "theme_color": "#EBEBEB",
+    "background_color": "#0E1016",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/index.html",
+    "name": "Casino with only BlackJack for now",
+    "short_name": "CasinoCheese",
+    "description": "an online website with various Casino like games",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

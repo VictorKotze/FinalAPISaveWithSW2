@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Card games">
+    <title>Card games</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    
+    
+    <!-- include an external JavaScript file -->
+    <script src="myscript.js"></script>
+	
+	<!-- Link to the manifest -->
+	<link rel="manifest" href="manifest.json">
+  </head>
+  
+<body>
+    <!-- page content -->
+	<!-- <div class="header">test</div> -->
+
+ <div id="ListOf"> <h1>Possible Games</h1> </div>
+
+    <div class="games">
+      <a class="nav1" href="blackjack.html">BlackJack</a>
+    </div>
+  
+	<!-- Display diffrent lightbox if player wins -->
+	<div id="lightBoxLose" onclick="closeLightBox()">
+	<div id= "box1">
+	
+	<div id="message1">You Lose, click anywhere to continue<br><br>
+	Your Score:   <div id=playerScoreLose></div>  <br><br>
+	Robot score:  <div id=robotScoreLose></div>  <br>
+	</div>
+	
+	</div>
+	</div>
+	<!-- Win Box -->
+	<div id="lightBoxWin" onclick="closeLightBox()">
+	<div id= "box2">
+	
+	<div id="message2">You Win, click anywhere to continue<br><br>
+	Your Score:  <div id=playerScoreWin></div>   <br><br>
+	Robot score:  <div id=robotScoreWin></div>   <br>
+	</div>
+	
+	</div>
+	</div>
+	<!-- Tie Box -->
+	<div id="lightBoxTie" onclick="closeLightBox()">
+	<div id= "box3">
+	
+	<div id="message3">You tied, click anywhere to continue<br><br>
+	Your Score:   <div id=playerScoreTie></div>  <br><br>
+	Robot score:  <div id=robotScoretie></div>  <br>
+	</div>
+	
+	</div>
+	</div>
+	
+  
+	<div id="blackJackMain"></div>
+	<div id="blackJackRobot"></div>
+	
+
+  
+  </body>
+
+ 
+  
+</html>
